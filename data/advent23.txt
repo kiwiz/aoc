@@ -1,0 +1,26 @@
+set b 99
+set c b
+jnz a 2
+jnz 1 5
+mul b 100
+sub b -100000
+set c b
+sub c -17000
+    set d 2
+            set g b
+            mod g d
+            jnz g 2
+                jnz 1 6
+        sub d -1
+        set g d
+        sub g b
+    jnz g -7
+    jnz 1 2
+        sub h -1
+    set g b
+    sub g c
+    jnz g 2
+    jnz 1 99
+    sub b -17
+    prt
+jnz 1 -17
